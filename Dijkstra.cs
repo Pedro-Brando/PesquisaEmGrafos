@@ -1,4 +1,3 @@
-
 //1) Crie um conjunto sptSet (conjunto de árvore do caminho mais curto) que mantém o controle 
 //   dos vértices incluídos na árvore do caminho mais curto, ou seja, cuja distância mínima da fonte 
 //   é calculada e finalizada. Inicialmente, este conjunto está vazio.
@@ -8,7 +7,10 @@
 //  a) Escolha um vértice u que não existe em sptSete tem valor mínimo de distância.
 //  b) Inclua u no sptSet .
 //  c) Atualize o valor da distância de todos os vértices adjacentes de u. Para atualizar os valores de distância, 
-//     itere por todos os vértices adjacentes. Para cada vértice adjacente v, se a soma do valor da distância de u (da fonte) e o peso da aresta uv, for menor que o valor da distância de v, então atualize o valor da distância de v.
+//     itere por todos os vértices adjacentes. Para cada vértice adjacente v, se a soma do valor da distância de u (da fonte) 
+//     e o peso da aresta uv, for menor que o valor da distância de v, então atualize o valor da distância de v.
+
+using System;
 
 class GFG {
     //Função para encontrar o vértice com menor valor de distância dos vértice
@@ -17,7 +19,7 @@ class GFG {
                     bool[] sptSet)
     {
         // Valor mínimo
-        int min = int.ValorMax, index_min = -1;
+        int min = int.MaxValue, index_min = -1;
   
         for (int v = 0; v < V; v++)
             if (sptSet[v] == false && dist[v] <= min) {
@@ -50,7 +52,7 @@ class GFG {
   
         //Inicializa todas as distâncias como infinita e stpSet[] como falso
         for (int i = 0; i < V; i++) {
-            dist[i] = int.ValorMax;
+            dist[i] = int.MaxValue;
             sptSet[i] = false;
         }
   
@@ -72,7 +74,7 @@ class GFG {
                 //Atualizara dist[v] apenas caso não esteja em sptSet, tenha uma ponta entre de u até v. 
                 //e o peso da fonte até v é menor que o valor atual de dist[v]
                 if (!sptSet[v] && grafo[u, v] != 0 && 
-                     dist[u] != int.ValorMax && dist[u] + grafo[u, v] < dist[v])
+                     dist[u] != int.MaxValue && dist[u] + grafo[u, v] < dist[v])
                     dist[v] = dist[u] + grafo[u, v];
         }
   
