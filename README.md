@@ -1,4 +1,4 @@
-# PesquisaEmGrafos
+# Pesquisa Em Grafos - CC6M
 
 -Grupo 6 - Pesquisa em Grafos  
 -Qualty assurance do grupo 1 (Árvores binárias)  
