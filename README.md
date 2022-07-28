@@ -1,2 +1,13 @@
 # PesquisaEmGrafos
-Abrantes por favor tenha piedade sob minha alma
+
+-Grupo 6 - Pesquisa em Grafos
+-Qualty assurance do grupo 1 (Árvores binárias)
+
+Integrantes:
+-MATHEUS DE CARVALHO SOUZA
+-PEDRO HENRIQUE ALCANTARA RAMOS
+-RENAN SOUZA DO NASCIMENTO
+-ROBERTA MEYRELLES FRANÇA
+
+
+Abrantes por favor tenha piedade de nossas almas
