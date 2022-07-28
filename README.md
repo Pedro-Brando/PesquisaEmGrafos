@@ -11,6 +11,9 @@ Integrantes:
 
 
 O algoritmo de Dijkstra é muito semelhante ao algoritmo de Prim para spanning tree mínimo . Como o MST de Prim, geramos um SPT (árvore de caminho mais curto) com a origem fornecida como raiz. Mantemos dois conjuntos, um conjunto contém vértices incluídos na árvore do caminho mais curto, outro conjunto inclui vértices ainda não incluídos na árvore do caminho mais curto. A cada passo do algoritmo, encontramos um vértice que está no outro conjunto (conjunto de ainda não incluído) e tem uma distância mínima da fonte.
+
+
+![alt text](https://github.com/Pedro-Brando/PesquisaEmGrafos/blob/main/Exemplo.png)
   
   
 Abrantes por favor tenha piedade de nossas almas
