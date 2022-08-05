@@ -1,15 +1,3 @@
-//1) Crie um conjunto sptSet (conjunto de árvore do caminho mais curto) que mantém o controle 
-//   dos vértices incluídos na árvore do caminho mais curto, ou seja, cuja distância mínima da fonte 
-//   é calculada e finalizada. Inicialmente, este conjunto está vazio.
-//2) Atribua um valor de distância a todos os vértices no gráfico de entrada. Inicialize todos 
-//   os valores de distância como INFINITO. Atribua o valor da distância como 0 para o vértice de origem para que ele seja selecionado primeiro.
-//3) Enquanto sptSet não inclui todos os vértices
-//  a) Escolha um vértice u que não existe em sptSete tem valor mínimo de distância.
-//  b) Inclua u no sptSet .
-//  c) Atualize o valor da distância de todos os vértices adjacentes de u. Para atualizar os valores de distância, 
-//     itere por todos os vértices adjacentes. Para cada vértice adjacente v, se a soma do valor da distância de u (da fonte) 
-//     e o peso da aresta uv, for menor que o valor da distância de v, então atualize o valor da distância de v.
-
 using System;
 
 class GFG {
