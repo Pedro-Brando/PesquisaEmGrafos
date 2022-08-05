@@ -56,7 +56,7 @@ class GFG {
             sptSet[i] = false;
         }
   
-        //Distância do vértice fonte até ele mesmo é sempre 0 né bobão
+        //Distância do vértice fonte até ele mesmo é sempre 0
         dist[src] = 0;
   
         //Encontrar menor caminho para todos os vértices
